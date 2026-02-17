@@ -1,0 +1,14 @@
+h1{
+    
+    color: brown;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px yellow;
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 100;
+   
+}

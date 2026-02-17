@@ -1,0 +1,13 @@
+.para{
+    color:blue;
+    line-height: 30px;
+}
+:root{
+
+--my-color:red
+}    
+h1{
+color:var(--my-color)
+}                   
+
+

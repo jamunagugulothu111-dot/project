@@ -1,0 +1,30 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color:blanchedalmond;
+}
+img{
+    align-items: center;
+    margin-left: o;
+    margin-right: o;
+}
+h1{
+    text-align: center;
+}
+
+h3{
+    color: orange;
+}
+h3{
+    color: brown;
+}
+
+
+
+
+
