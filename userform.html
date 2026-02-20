@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./userform.css">
+</head>
+<body>
+<form>
+<div class="space">
+    <label for="Username">Username</label>
+    <input type="text" name="Username" id="Username" placeholder="Eg:jamuna" required minlength="2" maxlength="2">
+</div>
+<div class="space">
+    <label for="Password">Password</label>
+    <input type="text" name="Password" id="Password">
+</div>
+<div class="space">
+    <label for="Age">Age</label>
+    <input type="number" name="Age" id="Age" min="15" max="25">
+</div>
+<div class="space">
+    <label for="Date">Date of Joining</label>
+    <input type="date" name="Date" id="Date">
+</div>
+<div class="space">
+    <label for="Email">Email</label>
+    <input type="email" name="email" id="email">
+</div>
+<div class="space">
+    <label for=" file">Upload the file</label>
+     <input type="file" name="file" id="file">
+</div>
+<div class="space">
+    <label>Technical skills</label>
+    <input type="checkbox" name="html" id="html">
+    <label for="html"> HTML</label>
+    <input type="checkbox" name="css" id="css">
+    <label for="css">CSS</label>
+    <input type="checkbox" name="js" id="js">
+    <label for="js">JavaScript</label>
+</div>
+<div class="space">
+    <label for="Gender">Gender</label>
+    <input type="radio" name="Gender" id="male">
+    <label for="male">Male</label>
+    <input type="radio" name="Gender" id="Female">
+    <label for="Female">Female</label>
+</div>
+<div class="space">
+    <label for="select">Select the State</label>
+    <select name="select" id="select">
+    <option value=""disabled selected>--select the state--</option>
+    <option value="">Telangana</option>
+    <option value="">AP</option>
+    <option value="">TN</option>
+</select>
+</div>
+<div class="space">
+     <label for="feedback">Feedback</label>
+     <textarea name="feedback" id="feedback" cols="20" rows="10"></textarea>
+</div>
+     <button type="submit">Registration</button>      
+</form>
+</body>
+</html>
