@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    gap: 10px;
+    align-items: center;
+    font-size: small;
+    color: aqua;
+}
+
+header{
+    background-color: aqua;
+    text-align: center;
+    color: white;
+}
+header img{
+    width: 10%;
+}
+main h4{
+    padding: 30px;
+}
+main{
+    display: flex;
+    margin: 5px;
+}
+main img{
+   float: center;
+   
+}
