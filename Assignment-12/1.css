@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+   text-align: center;
+   background-image: url(https://t3.ftcdn.net/jpg/03/01/84/54/360_F_301845445_Aj4iICMuzOfFkKW0U43l4aFAo05HZxIZ.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   padding: 100px;
+   color: white;
+}
+header button{
+    background-color: goldenrod;
+    border: none;
+}
+main .container1{
+    display: flex;
+    padding: 30px;
+}
+main .container2{
+    display: flex;
+    padding: 30px;
+}
+main .container2 .para2 .img{
+    width: 70%;
+}
+main .container2 .img{
+    width: 10px;
+}
+main .container3{
+    text-align: center;
+    display: flex;
+    list-style-type: none;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    
+}
+main h2{
+    color: rgb(50, 50, 160);
+}
+main ul{
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
